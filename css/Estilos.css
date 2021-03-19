@@ -1,0 +1,166 @@
+#logo1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 220px;
+    height: 55px;
+}
+
+.btnav {
+    margin-top: 40px;
+}
+
+.btnnavstil {
+    font-weight: 600;
+}
+
+.btnnavstil:hover {
+    font-weight: 600;
+    color: #FC9000;
+    background-color: white;
+    border: 2px solid #FC9000;
+}
+
+#btncont {
+    margin-right: 55px;
+    color: #FC9000;
+    border-radius: 50px;
+    border: 2px solid #FC9000;
+    background-color: white;
+}
+
+#btncont:hover {
+    background-color: #FC9000;
+    color: white;
+}
+
+.texto1 {
+    width: 100%;
+    height: 500px;
+}
+
+#texto1 {
+    padding-top: 260px;
+    justify-content: right;
+    color: #707070;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+#adminvector {
+    position: relative;
+    z-index: 1;
+    top: 200px;
+    left: 56px;
+    width: 600px;
+    height: 400px;
+}
+
+#textca1 {
+    font-size: 40px;
+    margin-top: 180px;
+    margin-right: 70px;
+}
+
+#textca2 {
+    font-size: 40px;
+    margin-top: 120px;
+    margin-right: 70px;
+}
+
+#textca3 {
+    font-size: 40px;
+    margin-top: 120px;
+    margin-right: 70px;
+}
+
+#angryvector {
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#disordervector {
+    margin-top: 80px;
+    margin-left: 200px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#trashvector {
+    margin-top: 80px;
+    margin-left: 80px;
+    width: 230px;
+    height: 300px;
+    float: left;
+}
+
+#usevector {
+    margin-top: 80px;
+    margin-left: 80px;
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+
+#btnflotante {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.cajatexto1 {
+    margin-top: 80px;
+    width: 100%;
+    height: 260px;
+}
+
+.cajatexto2 {
+    width: 100%;
+    height: 260px;
+}
+
+#titulo1 {
+    font-size: 50px;
+    color: #564F50;
+}
+
+.parrafo {
+    width: 200px;
+}
+
+#parrafo1 {
+    font-size: 25px;
+    color: #909090;
+}
+
+.movileimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7 00px;
+}
+
+#phonevector {
+    width: 900px;
+    height: 900px;
+    position: relative;
+}
+
+#chart1 {
+    height: 100px;
+}
+
+#paralaxtext {
+    margin-top: 100px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.iconmarg {
+    margin-left: 20px;
+    font-size: 20px;
+}
