@@ -14,36 +14,56 @@
 </head>
 
 <body>
+    <a id="btnflotantemov" href="mailto:info@databilize.com" class="hide-on-med-and-up btn-floating btn-large waves-effect waves-light  blue darken-2 tooltipped" data-position="left" data-tooltip="Deje un mensaje"><i class="material-icons">email</i></a>
 
-    <nav class="z-depth-0" style="height: 120px; background-color: white; ">
+    <nav class="z-depth-0 hide-on-small-only" style="height: 120px; background-color: white; ">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo"><img id="logo1" src="img/Logo.png" alt="" srcset=""></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li class="btnav"><a class="waves-effect waves-light btn-flat btnnavstil">Home</a></li>
-                <li class="btnav"><a class="waves-effect waves-light btn-flat btnnavstil">Nosotros</a></li>
-                <li class="btnav"><a class="waves-effect waves-light btn-flat btnnavstil">Realizamos</a></li>
-                <li class="btnav"><a class="waves-effect waves-light btn-flat btnnavstil">Preguntas</a></li>
-                <li class="btnav"><a id="btncont" class="waves-effect waves-light btn-flat">Contactenos</a></li>
+                <li class="btnav"><a href="index.html" class="waves-effect waves-light btn-flat btnnavstil">Home</a></li>
+                <li class="btnav"><a href="html/Nosotros.html" class="waves-effect waves-light btn-flat btnnavstil">Nosotros</a></li>
+                <li class="btnav"><a href="" class="waves-effect waves-light btn-flat btnnavstil">Realizamos</a></li>
+                <li class="btnav"><a href="" class="waves-effect waves-light btn-flat btnnavstil">Preguntas</a></li>
+                <li class="btnav"><a href="" id="btncont" class="waves-effect waves-light btn-flat">Contactenos</a></li>
             </ul>
         </div>
     </nav>
 
+    <nav class="hide-on-med-and-up" style="background-color: white;">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo right"><img id="logo2" src="img/Logo.png" alt="" srcset=""></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger" style="color: #FC9000;"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="html/Nosotros.html">Nosotros</a></li>
+        <li><a href="collapsible.html">Realizamos</a></li>
+        <li><a href="mobile.html">Preguntas</a></li>
+        <li><a id="btncontmovil" href="mobile.html">Contactenos</a></li>
+    </ul>
+
     <div class="row">
         <div class="col s12 m6 l6">
-            <div class="texto1">
+            <div class="texto1 hide-on-small-only">
                 <h1 id="texto1">Aquí comienza una nueva experiencia que te permitirá agilizar la gestión de información de tu empresa.</h1>
             </div>
+            <div class="texto2 hide-on-med-and-up">
+                <h1 id="texto2">Aquí comienza una nueva experiencia que te permitirá agilizar la gestión de información de tu empresa.</h1>
+            </div>
         </div>
-        <div class="col s12 m6 l6 hide-on-med-and-down">
+        <div class="col s12 m6 l6">
             <div class="image1">
-                <img id="adminvector" src="img/Adminvector.png" alt="" srcset="">
+                <img class="hide-on-small-only" id="adminvector" src="img/Adminvector.png" alt="" srcset="">
+                <img class="hide-on-med-and-up" id="adminvector2" src="img/Adminvector.png" alt="" srcset="">
             </div>
         </div>
     </div>
 
+    <!-- Carusel computador-->
 
-
-    <div class="carousel carousel-slider center col s12 m12 l12" style="height: 400px;">
+    <div class="hide-on-small-only carousel carousel-slider center col s12 m12 l12" style="height: 400px;">
         <div class="carousel-item #00897b teal darken-1 white-text" href="#one!">
             <div>
                 <img id="angryvector" src="img/Angryiconwhite.png" alt="">
@@ -71,6 +91,26 @@
             <h1 id="textca3" class="right-align">¿Te gustaría aprovechar las nuevas tecnologias sin meterte en un sinfín de términos y procesos técnicos?</h1>
         </div>
     </div>
+    <!-- Carusel computador-->
+
+    <!-- Carusel Movil-->
+    <div class="hide-on-med-and-up carousel carousel-slider" style="height: 400px;">
+        <div class="carousel-item #00897b teal darken-1 white-text" href="#one!">
+            <h1 id="textca1mov" class="right-align">¿Te abruma el exceso de trabajo?</h1>
+        </div>
+        <div class="carousel-item #607d8b blue-grey white-text" href="#two!">
+            <h1 id="textca1mov" class="right-align">¿No tienes control sobre el desempeño de la información de tus empleados y te interesa reorganizar el manejo de tareas para darle importancia a tus puntos fuertes?
+            </h1>
+        </div>
+        <div class="carousel-item #01579b light-blue darken-4 white-text" href="#three!">
+            <h1 id="textca1mov" class="right-align">¿Deseas eliminar el papeleo y facilitar las tareas pero no sabes cómo?
+            </h1>
+        </div>
+        <div class="carousel-item #d32f2f red darken-2 white-text" href="#four!">
+            <h1 id="textca1mov" class="right-align">¿Te gustaría aprovechar las nuevas tecnologias sin meterte en un sinfín de términos y procesos técnicos?</h1>
+        </div>
+    </div>
+    <!-- Carusel Movil-->
 
     <a id="btnflotante" href="mailto:info@databilize.com" class="hide-on-med-and-down btn-floating btn-large waves-effect waves-light  blue darken-2 tooltipped" data-position="left" data-tooltip="Deje un mensaje"><i class="material-icons">email</i></a>
 
@@ -88,8 +128,14 @@
 
 
         <div class="col s12 m12 l12">
-            <div class="movileimage">
+            <div class="movileimage hide-on-small-only">
                 <img id="phonevector" src="img/PhoneVector.png" alt="">
+            </div>
+        </div>
+
+        <div class="col s12 m12 l12">
+            <div class="movileimage hide-on-med-and-up">
+                <img id="phonevectormov" src="img/PhoneVector.png" alt="">
             </div>
         </div>
 
@@ -144,7 +190,8 @@
                 <div class="cajatexto1 center-align">
                     <div class="col s0 m3 l3"></div>
                     <div class="col s12 m6 l6">
-                        <p id="paralaxtext">Hemos creado una aplicación móvil donde puedes capturar (en tiempo real) toda clase de datos relevantes para tu organización y que, por lo general, se registran en una planilla o formato de papel.</p>
+                        <p class="hide-on-small-only" id="paralaxtext">Hemos creado una aplicación móvil donde puedes capturar (en tiempo real) toda clase de datos relevantes para tu organización y que, por lo general, se registran en una planilla o formato de papel.</p>
+                        <p class="hide-on-med-and-up" id="paralaxtextmov">Hemos creado una aplicación móvil donde puedes capturar (en tiempo real) toda clase de datos relevantes para tu organización y que, por lo general, se registran en una planilla o formato de papel.</p>
                     </div>
                     <div class="col s0 m3 l3"></div>
                 </div>
@@ -194,29 +241,6 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
-
-
-
-
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>

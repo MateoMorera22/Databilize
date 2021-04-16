@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+#parallaximg {
+    height: 1100px;
+}
+
+#logo1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 220px;
+    height: 55px;
+}
+
+#logo2 {
+    margin-top: 7px;
+    width: 140px;
+    height: 38px;
+}
+
+#btnflotante {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+#btnflotantemov {
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+}
+
+.btnav {
+    margin-top: 40px;
+}
+
+.btnnavstil {
+    font-weight: 600;
+}
+
+.btnnavstil:hover {
+    font-weight: 600;
+    color: #FC9000;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #FC9000;
+}
+
+#btncont {
+    font-weight: 600;
+    margin-right: 55px;
+    border-radius: 50px;
+    border: 2px solid #FC9000;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#btncont:hover {
+    color: white;
+    background-color: #FC9000;
+}
+
+#btncontmovil {
+    background-color: #FC9000;
+    color: #ffffff;
+}
+
+.back {
+    width: 100%;
+    height: 600px;
+    margin-top: 220px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.val {
+    width: 1000px;
+    height: 100%;
+    float: left;
+}
+
+.imgval {
+    width: 100%;
+    height: 150px;
+}
+
+#vectormov {
+    width: 130px;
+    height: 140px;
+}
+
+#vectormis {
+    width: 150px;
+    height: 140px;
+}
+
+#vectorvis {
+    width: 180px;
+    height: 130px;
+}
+
+footer {
+    margin-top: 800px;
+}
+
+.footermovil {
+    margin-top: 2550px;
+}
+
+.iconmarg {
+    margin-left: 20px;
+    font-size: 20px;
+}
