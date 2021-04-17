@@ -1,0 +1,45 @@
+#logo1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 220px;
+    height: 55px;
+}
+
+#logo2 {
+    margin-top: 7px;
+    width: 140px;
+    height: 38px;
+}
+
+.btnav {
+    margin-top: 40px;
+}
+
+.btnnavstil {
+    font-weight: 600;
+}
+
+.btnnavstil:hover {
+    font-weight: 600;
+    color: #FC9000;
+    background-color: white;
+    border: 2px solid #FC9000;
+}
+
+#btncont {
+    margin-right: 55px;
+    color: #FC9000;
+    border-radius: 50px;
+    border: 2px solid #FC9000;
+    background-color: white;
+}
+
+#btncont:hover {
+    background-color: #FC9000;
+    color: white;
+}
+
+#btncontmovil {
+    background-color: #FC9000;
+    color: #ffffff;
+}

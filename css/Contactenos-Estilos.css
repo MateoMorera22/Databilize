@@ -1,0 +1,99 @@
+#logo1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 220px;
+    height: 55px;
+}
+
+#logo2 {
+    margin-top: 7px;
+    width: 140px;
+    height: 38px;
+}
+
+.btnav {
+    margin-top: 40px;
+}
+
+.btnnavstil {
+    font-weight: 600;
+}
+
+.btnnavstil:hover {
+    font-weight: 600;
+    color: #FC9000;
+    background-color: white;
+    border: 2px solid #FC9000;
+}
+
+#btncont {
+    margin-right: 55px;
+    color: #FC9000;
+    border-radius: 50px;
+    border: 2px solid #FC9000;
+    background-color: white;
+}
+
+#btncont:hover {
+    background-color: #FC9000;
+    color: white;
+}
+
+#btncontmovil {
+    background-color: #FC9000;
+    color: #ffffff;
+}
+
+.contactenosmovil {
+    width: 100%;
+    height: 650px;
+    margin-bottom: 100px;
+}
+
+.titulo {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.tarjetacontent {
+    width: 100%;
+    height: 450px;
+}
+
+.tarjetacontentmov {
+    width: 100%;
+    height: 390px;
+}
+
+.formularios {
+    margin-top: 30px;
+    width: 100%;
+    height: 60%;
+}
+
+.formulariosmovil {
+    width: 100%;
+    height: 60%;
+}
+
+.iconos {
+    margin-top: 30px;
+}
+
+.iconosmov {
+    margin-top: 30px;
+}
+
+.iconmarg {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.iconcolor {
+    color: rgb(146, 146, 146);
+}
+
+.iconcolor:hover {
+    color: #ff9100;
+}
